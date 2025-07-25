@@ -14,9 +14,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 ## Marpの特徴
 
-- **シンプル**: Markdown で記述
-- **高速**: 素早くスライドを作成
-- **柔軟**: テーマのカスタマイズが可能
+- シンプルな Markdown で記述可能
+- 高速なスライド作成
+- 柔軟なテーマカスタマイズ
 
 ---
 
