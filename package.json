@@ -8,7 +8,9 @@
     "dev": "marp -s .",
     "build": "marp *.md",
     "build:pdf": "marp *.md --pdf",
-    "build:pptx": "marp *.md --pptx"
+    "build:pptx": "marp *.md --pptx",
+    "lint": "textlint \"*.md\"",
+    "lint:fix": "textlint --fix \"*.md\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,12 @@
   },
   "homepage": "https://github.com/ryosuke-horie/slide-marp#readme",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.2.1"
+    "@marp-team/marp-cli": "^4.2.1",
+    "textlint": "^15.2.1",
+    "textlint-rule-ja-no-mixed-period": "^3.0.1",
+    "textlint-rule-no-doubled-joshi": "^5.1.0",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-prh": "^6.1.0"
   }
 }
