@@ -1,0 +1,28 @@
+{
+  "name": "slide-marp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "marp -s .",
+    "build": "marp *.md",
+    "build:pdf": "marp *.md --pdf",
+    "build:pptx": "marp *.md --pptx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosuke-horie/slide-marp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ryosuke-horie/slide-marp/issues"
+  },
+  "homepage": "https://github.com/ryosuke-horie/slide-marp#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.1"
+  }
+}
