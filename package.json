@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ryosuke-horie/slide-marp#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.1",
+    "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.0",
     "textlint": "^15.2.1",
     "textlint-rule-ja-no-mixed-period": "^3.0.1",
     "textlint-rule-no-doubled-joshi": "^5.1.0",

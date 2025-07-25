@@ -53,6 +53,16 @@
       "allowEmojiAtEnd": false,
       "forceAppendPeriod": false
     },
-    "prh": false
+    "prh": false,
+    "@textlint-ja/preset-ai-writing": {
+      "allow-hyped-expression": false,
+      "hyped-adverb": true,
+      "no-unnatural-alphabet": true,
+      "no-unnatural-english": true,
+      "overly-particles": true,
+      "overly-passive-voice": true,
+      "overly-politeness": true,
+      "overly-long-sentence": true
+    }
   }
 }
