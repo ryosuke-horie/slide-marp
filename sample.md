@@ -8,13 +8,13 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 # Marpプレゼンテーション
 
-サンプルスライド
+サンプルスライド。
 
 ---
 
 ## Marpの特徴
 
-- **シンプル**: Markdownで記述
+- **シンプル**: Markdown で記述
 - **高速**: 素早くスライドを作成
 - **柔軟**: テーマのカスタマイズが可能
 
@@ -43,8 +43,8 @@ console.log(hello('Marp'));
 ## リストとテーブル
 
 ### リスト
-- 項目1
-- 項目2
+- 項目 1
+- 項目 2
   - サブ項目
 
 ### テーブル
