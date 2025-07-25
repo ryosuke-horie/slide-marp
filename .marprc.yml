@@ -1,0 +1,10 @@
+options:
+  markdown:
+    html: true
+    breaks: false
+    typographer: true
+  pdf:
+    format: A4
+    printBackground: true
+    timeout: 100000
+  allowLocalFiles: true
